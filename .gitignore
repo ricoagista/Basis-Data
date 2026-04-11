@@ -1,0 +1,11 @@
+# Ignore the Oracle SQL Developer Data Modeler installation directory
+/datamodeler/
+
+# Oracle SQL Developer Data Modeler local user settings
+*.local
+dmd_open.local
+ChangeRequests.local
+
+# Logs
+*.log
+*.log.*

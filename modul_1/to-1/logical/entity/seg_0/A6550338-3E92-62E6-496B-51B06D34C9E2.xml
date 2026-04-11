@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6550338-3E92-62E6-496B-51B06D34C9E2" name="Company">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:08:16 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="company_id" id="2F8F7F1A-9C98-6CC7-C8D9-7DA3D16B0524">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:08:35 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_name" id="A6C7BA9C-084A-C6BB-704A-542F74F05780">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:08:35 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_address" id="B82EA469-4011-3904-F7B0-179DDEA4266B">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:08:36 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_phone" id="928EB168-9C71-D495-A9E9-A99C56689567">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:08:37 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shipment_id" id="1880E884-0226-1099-40DB-DFD158BF9D59">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:43:20 UTC</createdTime>
+<generatorID>660C6031-36B8-526B-F6B8-3A950DBD61DD</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3171FCB9-30DD-C1E1-EB3A-D01FCF75FBF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05CC9289-D71D-56CB-82B7-7835C6AE3CCB" name="Company PK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:09:02 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<engineerTo>
+<item key="DBF81C1C-A09E-D4FA-AA4F-63ED2C3A1780" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F8F7F1A-9C98-6CC7-C8D9-7DA3D16B0524</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

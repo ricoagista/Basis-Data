@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="194D4AA9-DA61-A3A2-3C67-F3FC6E53CFD2" name="Sepatu">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>BB4234D3-740E-B78D-6036-41AA4534F042</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sepatu" id="80C413D9-2D65-8649-375D-716C4BA9D3AD">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>E211CE24-E5AA-6BD6-F0AC-C29D3781D5F0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="merek_sepatu" id="10B52018-9ECF-7E1C-6C59-D5B13C784B3B">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>DCC865E9-CC6C-1835-BDAE-2FA2E934B48D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8CBEEF89-D139-4F5A-35D2-B25E7CEC68AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukuran" id="C6D6CF85-C48D-7435-395C-FBEC418284BD">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>8CF5D803-E2D5-81AD-D1B7-0F24DD21EF7E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BFF096F2-97D7-4449-E097-F906E093D8F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_beli" id="59552190-9DCC-52D2-365A-9C8947A420BE">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>6F3D8FF7-11AF-D42D-7971-9815E68A2DA9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1703633B-978B-AADC-CD28-7E19B7978723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3526D19-1500-87BB-55A5-5C8E11FF1C35" name="Sepatu_PK">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>2B06E255-29C2-AC2C-132A-A2CB3DECECCB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80C413D9-2D65-8649-375D-716C4BA9D3AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

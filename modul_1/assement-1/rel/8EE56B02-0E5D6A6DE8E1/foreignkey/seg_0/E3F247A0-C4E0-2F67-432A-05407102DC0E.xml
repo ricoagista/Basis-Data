@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3F247A0-C4E0-2F67-432A-05407102DC0E" containerWithKeyObject="2268120F-78C7-3A80-B5F3-C2CFD3D3E5F0" localFKIndex="55F55C17-9259-A351-CDEE-6CD3A36FB8CF" name="Riwayat_Sepatu_FK">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>314E474F-FBCE-10DF-C1D4-F48F2B86E906</importedID>
+<referredTableLongName>Sepatu</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>194D4AA9-DA61-A3A2-3C67-F3FC6E53CFD2</referredTableID>
+<keyObject>C3526D19-1500-87BB-55A5-5C8E11FF1C35</keyObject>
+<referredKeyID>C3526D19-1500-87BB-55A5-5C8E11FF1C35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sepatu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

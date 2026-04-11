@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C49905EA-282C-D8D1-9D2C-39D8FD478C18" name="Credit_card">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>397D7070-9455-F9E1-4B76-4C873E84F94F</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="card_id" id="1AF95EE6-5B9D-1B45-1298-E90516D8D862">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>A6E551E7-FCF0-E1AB-4434-F0C2C6558170</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_number" id="E78FA1F6-D32C-6FAC-A8A4-9346415C724E">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>26AD20D6-4963-32F3-77FF-38F2497532F8</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_holder" id="A2AC2768-D820-CEEF-9A0F-1400CDB6EEBD">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>2E54F938-9FC8-E1E6-708D-02388FBCF7B4</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiry_date" id="2AA004C3-9A8F-452A-2FE4-9D44C7B21B0C">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>FC1E7952-CAAC-9D18-84DF-87FE5776D0EC</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_id" id="5D510FAC-EBCA-9ED9-C038-17AE442FE8B9">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>A57B879F-1371-95DB-46D3-099A84FC1D07</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C870FB75-456B-B2C4-A2AB-9DA8D9194378" name="Credit_card_PK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>FAC6DCEA-6645-E18C-B109-36256112198E</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF95EE6-5B9D-1B45-1298-E90516D8D862"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

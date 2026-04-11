@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E51ACF6-B403-6A18-45C2-D0506DA41899" name="Payment">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>A75D3239-8FD1-978A-B3A0-760A756928B9</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="B9A9327F-CE2B-A7AF-AB88-0098276523C1">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>72D501F5-41D6-E4E5-8A81-42147565CDB8</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="EB803881-A04D-5D0F-9C51-BABBC099360E">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>A2211134-F99F-6046-CA58-5D19A42BD0F5</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="81296FAC-EE24-4BEF-B864-CCB148047514">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>BC06AF1D-533A-D836-4718-94831DC1B8D6</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_status" id="7675F8DA-0900-1ACC-7080-0BB876655C80">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>45BE55EB-3C90-16AD-25C5-58FC4BB25DDF</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_id" id="3E565B10-4651-8B99-C7E5-E26D372A2B21">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>E57C2ADA-44C8-9F5A-AE92-E118801796DD</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bank_Transfer_transfer_id" id="28F2946C-6751-EAB1-D1C9-2C1D3C5C728E">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>419C38B1-F505-3FE5-901B-883C7158AE95</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22638C24-7A59-867C-E376-413A59A01CE8" referredColumn="6EDD2749-F765-17E0-1562-FB992649C798"/>
+</associations>
+</Column>
+<Column name="Credit_card_card_id" id="41BA6D3C-3D9C-1658-DAD5-43975B88C20A">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>55D8F61B-70B4-507D-EEEE-3B916FD6A819</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F317A6E4-98F2-53DE-45EF-B1E1C034CCE2" referredColumn="1AF95EE6-5B9D-1B45-1298-E90516D8D862"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAD0E53D-0AD0-5DDE-ED7E-F626CC080C97" name="Payment_PK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>539AAF3E-1977-A831-B299-6162052C8036</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A9327F-CE2B-A7AF-AB88-0098276523C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D69C76D-AD4B-6E0D-A6F8-9976C06E1ADC" name="Payment__IDX">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>745070B8-8B63-620E-B0F9-C71076BC3C99</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="28F2946C-6751-EAB1-D1C9-2C1D3C5C728E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF36FB16-CCE0-53A5-24CF-99C68FA1F5CF" name="Payment__IDXv1">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>760C6E8C-5FF8-26CC-CA79-4CADCAA5A3E2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="41BA6D3C-3D9C-1658-DAD5-43975B88C20A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDE8B725-AFBF-E19B-5F4D-A327156DC5EE" name="Payment_Bank_Transfer_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>745070B8-8B63-620E-B0F9-C71076BC3C99</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28F2946C-6751-EAB1-D1C9-2C1D3C5C728E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7566F7C1-DA41-DA19-DC3D-1EB70135E646" name="Payment_Credit_card_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>760C6E8C-5FF8-26CC-CA79-4CADCAA5A3E2</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BA6D3C-3D9C-1658-DAD5-43975B88C20A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

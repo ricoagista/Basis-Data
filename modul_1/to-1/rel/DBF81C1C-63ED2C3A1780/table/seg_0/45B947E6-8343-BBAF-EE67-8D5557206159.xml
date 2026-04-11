@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45B947E6-8343-BBAF-EE67-8D5557206159" name="Customer">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>3924E9A0-A1A0-CCE6-7F99-A73E6AA840E3</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="12AFEF68-A6B1-6DB6-3D1C-069BA0D57696">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>BDF6752B-A47A-5D18-3E5B-747896362B2E</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_name" id="A2E3B1A6-7D17-76C7-B51E-691067045B1B">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>ED7AB948-426D-231C-232E-656A8C7A0F84</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="7DE39123-914F-9A3E-76EA-632F21D0484B">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>7D656023-F6B6-C3FD-7563-238868C33FDF</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="14BA3753-58BB-3DB2-94F5-06706FE77E63">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>FEE33143-BCC5-D9EE-CBD6-CCF351CD5D99</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="C734E1B4-950F-3231-C942-4C7B540D0F35">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>694561E3-25C5-3EDC-5FDB-55C39B37FD8F</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_order_id" id="678041D4-50EC-3C87-C6E4-ADBECD22D9CD">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>561EF9CB-8BFB-E885-83C2-C3554E9C3B47</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7203FA0-B0FC-F152-6521-6135237F9C08" referredColumn="4428799B-883C-89B5-A4AC-DE6AD5486E61"/>
+</associations>
+</Column>
+<Column name="Shipment_shipment_id" id="13E57DAF-844E-6134-DB4A-6A5DE8CF8751">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>FF4BE272-5204-7635-8D8F-A25762A443DE</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65E3D270-90F3-F6D4-FDB8-91FA7EB9FED3" referredColumn="A400EC14-9C7F-FAB4-08A1-7E95BE481EDB"/>
+</associations>
+</Column>
+<Column name="Order_Order_Detail_order_detail_id" id="CCE4438B-4FEE-C36D-36C1-EAC28246FC00">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>41CEF84B-751A-9E54-0423-CEE92723592A</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7203FA0-B0FC-F152-6521-6135237F9C08" referredColumn="81355931-7EB2-29E5-D574-74E1AC31ADCA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2CBDB54-46BB-1F72-82CC-35814CA66085" name="Customer_PK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>4F16A888-38AB-9E8C-28E4-01705CA3375E</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12AFEF68-A6B1-6DB6-3D1C-069BA0D57696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="003FA043-71CF-E4DE-1EF2-B46D41669906" name="Customer_Shipment_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>A15F2D30-3F9B-4951-6AD0-AED554170B8D</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E57DAF-844E-6134-DB4A-6A5DE8CF8751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCC9736F-4B47-5577-4B9F-9BEBD6CED077" name="Customer_Order_FK">
+<createdBy>user</createdBy>
+<createdTime>2026-03-08 22:51:32 UTC</createdTime>
+<generatorID>2948E0A3-3925-AD85-8CEB-B705865401FC</generatorID>
+<ownerDesignName>Tugas1Benar</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="678041D4-50EC-3C87-C6E4-ADBECD22D9CD"/>
+<colUsage columnID="CCE4438B-4FEE-C36D-36C1-EAC28246FC00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Foto_Sepatu_FK" directorySegmentName="seg_0" id="3D53A999-296C-9785-CEAD-4D9B039640FF">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>392182C7-8D3F-AC5F-3FD9-DE00494281FE</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<sourcePk>EF69840B-A358-E272-F3FF-581BD0388E3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F83ECA5D-4148-94D2-9BBC-A1C1AA53AA20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C5F5902-5C68-D3AA-4839-8A1775DCF95E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

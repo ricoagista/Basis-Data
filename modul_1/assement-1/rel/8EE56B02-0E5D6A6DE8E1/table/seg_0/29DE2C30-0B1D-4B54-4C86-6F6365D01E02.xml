@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29DE2C30-0B1D-4B54-4C86-6F6365D01E02" name="Aksesoris_Tambahan">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>79AFEEEA-9521-7EB7-7D23-8CE5292F0DA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aksesoris" id="EC9AB259-02F7-010A-9107-BF0535161D45">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>C1A1D8F1-C5BA-5318-98AE-0EA3E8481A27</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sepatu" id="772BB1A4-C126-1A1A-E33A-53CFFBF9C6A6">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>549A3471-EDEB-4B04-55A6-DDECB9406B03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F14FAC1-56B8-18FA-80A5-6E6802C326AD" referredColumn="80C413D9-2D65-8649-375D-716C4BA9D3AD"/>
+</associations>
+</Column>
+<Column name="nama_barang" id="E68F23C0-F140-2807-BEE6-22FBE35BC0A5">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>44818C73-B088-8B68-C87E-5637CF144986</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8CBEEF89-D139-4F5A-35D2-B25E7CEC68AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="warna" id="146A9EFC-0FA5-8012-0309-700CC906F363">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>8512061F-7C23-29D5-B709-689ED6E93D47</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="C4FADAD7-1E2F-484E-4C0A-9710F8F2B8F2">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>59FE8480-B2B6-97DA-8C1E-196BE5080682</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BFF096F2-97D7-4449-E097-F906E093D8F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4A93C08-C370-E929-436D-0AEBC7A5E48D" name="Aksesoris_PK">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>BCD83529-4315-4F77-8FC1-B07021E9E105</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9AB259-02F7-010A-9107-BF0535161D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17B82189-C09F-9812-B001-7D6FFDF141C9" name="Aksesoris_Sepatu_FK">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772BB1A4-C126-1A1A-E33A-53CFFBF9C6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

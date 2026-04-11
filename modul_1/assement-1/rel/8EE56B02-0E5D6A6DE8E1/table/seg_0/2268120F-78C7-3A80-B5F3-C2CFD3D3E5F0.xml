@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2268120F-78C7-3A80-B5F3-C2CFD3D3E5F0" name="Riwayat_Pemakaian">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>47D91E0A-24DE-38E3-52CB-E24A76C36699</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pemakaian" id="69E379AA-A6D5-20C5-B3ED-22EF424A314B">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>5257BAF1-20DD-CB97-EA31-2D1BB65E6827</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sepatu" id="954592F8-6299-63B6-7B97-C0B1EDB5B223">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>F4E7B3FC-EC89-CF16-B7B1-ED96803A7D49</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3F247A0-C4E0-2F67-432A-05407102DC0E" referredColumn="80C413D9-2D65-8649-375D-716C4BA9D3AD"/>
+</associations>
+</Column>
+<Column name="tanggal_pakai" id="3BDBADEB-98C7-08B9-6667-9FF656471C8A">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>7DA57A66-B3CB-2969-3DA1-FEA8A23594B3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1703633B-978B-AADC-CD28-7E19B7978723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kondisi_cuaca" id="49B89288-0B67-D39A-7E9E-33838A19BB21">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>25670EE8-6F55-E616-C95A-48C327D02712</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="durasi_jam" id="94FE72CF-A717-BC1E-965D-7B5D51846F81">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>63973E86-A375-AA4F-833F-C3254CB63B56</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BFF096F2-97D7-4449-E097-F906E093D8F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="817979F7-365D-A028-2421-AF241B076E02" name="Riwayat_PK">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>C78F5D19-D197-06A2-6CF2-37B9764BD3C2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69E379AA-A6D5-20C5-B3ED-22EF424A314B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55F55C17-9259-A351-CDEE-6CD3A36FB8CF" name="Riwayat_Sepatu_FK">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954592F8-6299-63B6-7B97-C0B1EDB5B223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

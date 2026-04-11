@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Riwayat_Sepatu_FK" directorySegmentName="seg_0" id="0F25E96F-DAB2-823C-2146-EBCD42E635E7">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>E3F247A0-C4E0-2F67-432A-05407102DC0E</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<sourcePk>EF69840B-A358-E272-F3FF-581BD0388E3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F83ECA5D-4148-94D2-9BBC-A1C1AA53AA20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8867B925-7870-2560-87B1-BC10170CDFE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

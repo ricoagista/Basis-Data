@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B944AAF-9563-FA09-3B14-B11107C59AA6" name="Foto_Koleksi">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>104255A6-6C8D-AAC1-E656-F0A74B4232FF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_foto" id="081CAA5B-9B96-6BEB-1F5B-39D4245BFFBB">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>E2441469-79BF-BF32-0B5A-7BC1FB471381</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sepatu" id="59646808-7C86-3CE3-A460-90EBEBF1EAAE">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>38DAB17F-B629-5497-8BCB-4DAF041D8BD3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="392182C7-8D3F-AC5F-3FD9-DE00494281FE" referredColumn="80C413D9-2D65-8649-375D-716C4BA9D3AD"/>
+</associations>
+</Column>
+<Column name="nama_file" id="90713750-78A7-54E2-315A-D0C4ABC88CBD">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>0D19357B-5E70-7B18-E7B1-C3E7448C682E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>607BAF8E-C60C-E672-B402-E6130D25D1FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_ambil" id="556F7E49-C114-D374-3F74-3BC05AACD88C">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>C4A38A67-B6CC-8C78-486E-CFCDF07F9AB6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1703633B-978B-AADC-CD28-7E19B7978723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keterangan_foto" id="79D52C15-F199-9C75-73FD-3D2CC18A3726">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>F6ABBBAB-3B97-C898-30A7-A7CB5428F403</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>607BAF8E-C60C-E672-B402-E6130D25D1FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52DEE367-A03B-27F1-E5E9-8C0B5117C558" name="Foto_PK">
+<sourceDDLFile>1.sql</sourceDDLFile>
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<importedID>4631D2F8-804D-FD5A-B5DF-E0885C88321D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="081CAA5B-9B96-6BEB-1F5B-39D4245BFFBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFDE0785-1622-76E3-927D-347CA5185EFB" name="Foto_Sepatu_FK">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:29 UTC</createdTime>
+<ownerDesignName>assement-1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59646808-7C86-3CE3-A460-90EBEBF1EAAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

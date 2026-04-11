@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F83ECA5D-4148-94D2-9BBC-A1C1AA53AA20" name="Sepatu">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>194D4AA9-DA61-A3A2-3C67-F3FC6E53CFD2</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id sepatu" id="BBFA04F3-D12E-BAC0-0B95-AFC595545C41">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>80C413D9-2D65-8649-375D-716C4BA9D3AD</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="merek sepatu" id="C5E02EA2-0AE7-9A14-91D9-1E78CD7142E9">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>10B52018-9ECF-7E1C-6C59-D5B13C784B3B</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8CBEEF89-D139-4F5A-35D2-B25E7CEC68AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ukuran" id="58B191B7-915B-9DB3-B20C-3988C821E889">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>C6D6CF85-C48D-7435-395C-FBEC418284BD</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BFF096F2-97D7-4449-E097-F906E093D8F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal beli" id="B2380D00-0965-ECB8-1EE7-80F1C186F53B">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>59552190-9DCC-52D2-365A-9C8947A420BE</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1703633B-978B-AADC-CD28-7E19B7978723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF69840B-A358-E272-F3FF-581BD0388E3B" name="Sepatu PK">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>C3526D19-1500-87BB-55A5-5C8E11FF1C35</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBFA04F3-D12E-BAC0-0B95-AFC595545C41</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

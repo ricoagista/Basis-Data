@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C5F5902-5C68-D3AA-4839-8A1775DCF95E" name="Foto Koleksi">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>1B944AAF-9563-FA09-3B14-B11107C59AA6</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id foto" id="90AC1052-C8B8-DBA5-AD7A-A8A43B56EB5E">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>081CAA5B-9B96-6BEB-1F5B-39D4245BFFBB</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id sepatu" id="D2A9C2AB-9FF1-A5DF-0E3C-6EA8FF0CD356">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>3D53A999-296C-9785-CEAD-4D9B039640FF</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<referedAttribute>BBFA04F3-D12E-BAC0-0B95-AFC595545C41</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7AF2EB14-2523-32D5-2E96-2AFC46D39ACF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama file" id="A7B39BF4-DC52-2C99-3500-67CA80BB3D06">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>90713750-78A7-54E2-315A-D0C4ABC88CBD</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>607BAF8E-C60C-E672-B402-E6130D25D1FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal ambil" id="672F6F92-F079-B24D-51F9-49A322C6D272">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>556F7E49-C114-D374-3F74-3BC05AACD88C</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1703633B-978B-AADC-CD28-7E19B7978723</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keterangan foto" id="AB8FAFDC-7AC4-ECA4-2ADB-1204B5668EF6">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>79D52C15-F199-9C75-73FD-3D2CC18A3726</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>607BAF8E-C60C-E672-B402-E6130D25D1FB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA47C247-8B58-94D1-5C4C-D30CD16D59A1" name="Foto PK">
+<createdBy>Rico</createdBy>
+<createdTime>2026-04-06 06:08:33 UTC</createdTime>
+<generatorID>52DEE367-A03B-27F1-E5E9-8C0B5117C558</generatorID>
+<ownerDesignName>assement-1</ownerDesignName>
+<engineerTo>
+<item key="8EE56B02-263C-4C1E-8A31-0E5D6A6DE8E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90AC1052-C8B8-DBA5-AD7A-A8A43B56EB5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
