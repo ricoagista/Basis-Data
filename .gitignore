@@ -1,5 +1,6 @@
 # Ignore the Oracle SQL Developer Data Modeler installation directory
 /datamodeler/
+Get Started With Oracle Database 11g Express Edition .lnk
 
 # Oracle SQL Developer Data Modeler local user settings
 *.local
