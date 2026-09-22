@@ -36,9 +36,11 @@ Basis-Data/
 
 ## 📝 Tugas
 
+Rangkaian Final Project (FP 1–5) yang saling menyambung dengan studi kasus **Sistem Informasi Posyandu**.
+
 | Tugas | Deskripsi |
 |-------|-----------|
-| [Tugas FP 1](./Tugas/Tugas%20FP%201/) | Final Project 1 — Sistem Informasi Posyandu (Imunisasi & Pemantauan Balita) |
+| [Tugas FP 1–5](./Tugas/) | Perancangan & pengembangan basis data Sistem Informasi Posyandu |
 
 ---
 

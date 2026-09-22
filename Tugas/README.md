@@ -1,14 +1,23 @@
-# Tugas Final Project 1 — Sistem Informasi Posyandu
+# 📝 Tugas Final Project — Sistem Informasi Posyandu
 
-Perancangan basis data untuk sistem informasi posyandu yang mencakup pemantauan kesehatan balita, jadwal imunisasi, dan pemberian vitamin.
+Tugas Final Project (FP) merupakan rangkaian tugas yang saling menyambung dari FP 1 hingga FP 5. Studi kasus yang digunakan adalah **Sistem Informasi Posyandu** untuk pemantauan kesehatan balita, imunisasi, dan pemberian vitamin.
 
-## 📄 File
+---
+
+## 📄 Daftar File
 
 | File | Keterangan |
 |------|-----------|
-| `tugas.sql` | Skema lengkap basis data sistem posyandu |
+| [`puskesmas.sql`](./puskesmas.sql) | Skema database lengkap (DDL) — dibuat di FP 1 |
+| [`Tugas FP1.pdf`](./Tugas%20FP1.pdf) | Final Project 1 |
+| [`Tugas FP2.pdf`](./Tugas%20FP2.pdf) | Final Project 2 |
+| [`Tugas FP3.pdf`](./Tugas%20FP3.pdf) | Final Project 3 |
+| [`Tugas FP4.pdf`](./Tugas%20FP4.pdf) | Final Project 4 |
+| [`Tugas FP5.pdf`](./Tugas%20FP5.pdf) | Final Project 5 |
 
-## 🗂️ Skema Database (`tugas.sql`)
+---
+
+## 🗂️ Skema Database (`puskesmas.sql`)
 
 ```
 puskesmas
@@ -21,7 +30,7 @@ puskesmas
 └── pengguna (login: Admin / Petugas / Orang Tua)
 ```
 
-## 📌 Daftar Tabel
+### Daftar Tabel
 
 | No | Tabel | Keterangan |
 |----|-------|-----------|
@@ -36,6 +45,8 @@ puskesmas
 | 9 | `pemberian_vitamin` | Riwayat pemberian vitamin |
 | 10 | `status_gizi` | Status gizi & kategori stunting |
 | 11 | `pengguna` | Akun login sistem (Admin, Petugas, Orang Tua) |
+
+---
 
 ## 📌 Konsep yang Diterapkan
 
