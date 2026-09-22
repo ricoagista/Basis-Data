@@ -1,11 +1,14 @@
-# Ignore the Oracle SQL Developer Data Modeler installation directory
+# Oracle SQL Developer Data Modeler — binary/installer
 /datamodeler/
-Get Started With Oracle Database 11g Express Edition .lnk
 
-# Oracle SQL Developer Data Modeler local user settings
+# Oracle Data Modeler project files (XML internal tool, bukan SQL)
+*.dmd
 *.local
-dmd_open.local
 ChangeRequests.local
+dl_settings.xml
+
+# Windows shortcuts
+*.lnk
 
 # Logs
 *.log
